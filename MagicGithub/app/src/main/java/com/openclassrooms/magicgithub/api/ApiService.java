@@ -7,5 +7,6 @@ import androidx.annotation.Nullable;
 public interface ApiService {
     List<User> getUsers();
     void generateRandomUser();
+
     void deleteUser(User username);
 }
